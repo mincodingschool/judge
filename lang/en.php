@@ -1,12 +1,12 @@
 <?php
 	//oj-header.php
-	$MSG_FAQ="자주 묻는 질문";
-	$MSG_BBS="게시판";
+	$MSG_FAQ="꼭 읽어보세요";
+	$MSG_BBS="MY질문게시판";
 	$MSG_HOME="Home";
 	$MSG_PROBLEMS="문제";
-	$MSG_STATUS="채점 상황 열람";
+	$MSG_STATUS="MY채점결과";
 	$MSG_RANKLIST="순위";
-	$MSG_CONTEST="대회";
+	$MSG_CONTEST="숙제하기";
   	$MSG_RECENT_CONTEST="Recent";
 	$MSG_LOGOUT="로그아웃";
 	$MSG_LOGIN="로그인";
@@ -18,7 +18,7 @@
 	$MSG_USERINFO="ModifyUser";
 	$MSG_MAIL="Mail";
 	//status.php
-	$MSG_Pending="대기중";
+	$MSG_Pending="채점 대기중";
 	$MSG_Pending_Rejudging="재채점 대기";
 	$MSG_Compiling="Compile...";
 	$MSG_Running_Judging="실행 및 채점중";
@@ -49,33 +49,33 @@
    $MSG_OK="OK";
    $MSG_Explain="Type reason or explaination";
 	//problemstatistics.php
-	$MSG_PD="PD";
-	$MSG_PR="PR";
-	$MSG_CI="CI";
-	$MSG_RJ="RJ";
-	$MSG_AC="AC";
-	$MSG_PE="PE";
-	$MSG_WA="WA";
-	$MSG_TLE="TLE";
-	$MSG_MLE="MLE";
-	$MSG_OLE="OLE";
-	$MSG_RE="RE";
-	$MSG_CE="CE";
-	$MSG_CO="CO";
-	$MSG_TR="Test";
+	$MSG_PD="대기";
+	$MSG_PR="재체점 대기";
+	$MSG_CI="컴파일 중";
+	$MSG_RJ="재체점";
+	$MSG_AC="정답";
+	$MSG_PE="출력형식오류";
+	$MSG_WA="틀림";
+	$MSG_TLE="시간초과";
+	$MSG_MLE="메모리초과";
+	$MSG_OLE="출력많음";
+	$MSG_RE="실행애러";
+	$MSG_CE="컴파일에러";
+	$MSG_CO="컴파일성공";
+	$MSG_TR="테스트";
 	$MSG_RESET="Reset";
 	//problemset.php
 	$MSG_SEARCH="Search";
-	$MSG_PROBLEM_ID="Problem ID";
-	$MSG_TITLE="Title";
-	$MSG_SOURCE="Source/Category";
-	$MSG_SUBMIT="Submit";
+	$MSG_PROBLEM_ID="문제 ID";
+	$MSG_TITLE="문제명";
+	$MSG_SOURCE="Category";
+	$MSG_SUBMIT="소스코드 채점하기";
 	
 	//ranklist.php
-	$MSG_Number="No.";
+	$MSG_Number="순위";
 	$MSG_NICK="사용할 닉네임";
-	$MSG_SOVLED="Solved";
-	$MSG_RATIO="Ratio";
+	$MSG_SOVLED="해결한 문제 수";
+	$MSG_RATIO="정답률";
 	
 	//registerpage.php
 	$MSG_USER_ID="아이디";
@@ -87,49 +87,49 @@
 	$MSG_VCODE="Verify Code";
 
 	//problem.php
-	$MSG_NO_SUCH_PROBLEM="Problem is not Available!";
-	$MSG_Description="Description"  ;
-	$MSG_Input="Input"  ;
-	$MSG_Output= "Output" ;
-	$MSG_Sample_Input= "Sample Input" ;
-	$MSG_Sample_Output= "Sample Output" ;
+	$MSG_NO_SUCH_PROBLEM="해당 문제를 열람할 수 없습니다!";
+	$MSG_Description="문제 설명"  ;
+	$MSG_Input="입력 (scanf)"  ;
+	$MSG_Output= "출력 (printf)" ;
+	$MSG_Sample_Input= "입력 예시" ;
+	$MSG_Sample_Output= "출력 예시" ;
 	$MSG_Test_Input= "Test Input" ;
 	$MSG_Test_Output= "Test Output" ;
 	$MSG_SPJ= "Special Judge" ;
 
-	$MSG_HINT= "HINT" ;
-	$MSG_Source= "Source" ;
-	$MSG_Time_Limit="Time Limit";
-	$MSG_Memory_Limit="Memory Limit";
+	$MSG_HINT= "[TIP]" ;
+	$MSG_Source= "출처" ;
+	$MSG_Time_Limit="시간 제한";
+	$MSG_Memory_Limit="메모리 제한";
 	
 	//admin menu
-	$MSG_SEEOJ="SeeOJ";
-	$MSG_ADD="Add";
-	$MSG_LIST="List";
-	$MSG_NEWS="News";
-	$MSG_TEAMGENERATOR="TeamGenerator";
+	$MSG_SEEOJ="실시간 채점결과";
+	$MSG_ADD="[ADD] ";
+	$MSG_LIST="[LIST] ";
+	$MSG_NEWS="공지사항";
+	$MSG_TEAMGENERATOR="팀 생성하기";
 	$MSG_SETMESSAGE="SetMessage";
 	$MSG_SETPASSWORD="ChangePassWD";
 	$MSG_REJUDGE="Rejudge";
 	$MSG_PRIVILEGE="Privilege";
 	$MSG_GIVESOURCE="GiveSource";
-	$MSG_IMPORT="Import";
-	$MSG_EXPORT="Export";
+	$MSG_IMPORT="[Import] ";
+	$MSG_EXPORT="[Export] ";
 	$MSG_UPDATE_DATABASE="UpdateDatabase";
 	$MSG_ONLINE="Online";
    
   //contest.php
-  $MSG_PRIVATE_WARNING="This is a private contest which you don't have privilege。";
-  $MSG_WATCH_RANK="Click HERE to watch contest rank.";
+  $MSG_PRIVATE_WARNING="비공개 대회 입니다.";
+  $MSG_WATCH_RANK="대회 순위를 보려면 여기를 클릭하세요";
 
-  $MSG_Public="Public";
-  $MSG_Private="Private";
-  $MSG_Running="Running";
+  $MSG_Public="공개";
+  $MSG_Private="비공개";
+  $MSG_Running="진행중";
   $MSG_Start="Start";
   $MSG_TotalTime="Total";
-  $MSG_LeftTime="Left";
+  $MSG_LeftTime="남은시간";
 
-  $MSG_Ended="Finished";
+  $MSG_Ended="종료";
   
   $MSG_Login="Please Login";
   $MSG_JUDGER="Judger";
